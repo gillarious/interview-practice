@@ -1,6 +1,6 @@
 def largest_prod_subarray(nums):
     if len(nums) < 2:
-            return nums[0]
+        return nums[0]
     max_prod = nums[0]
     for i in range(len(nums)):
         prod = nums[i]
