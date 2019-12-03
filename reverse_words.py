@@ -1,10 +1,15 @@
 def reverse_words(string):
-    if string:
-        words = string.split(" ")
-        return " ".join(words[::-1])
-    return string
+    return " ".join(string.split(" ")[::-1])
     
-test = "Hello World And Stacey"
+test1 = "Hello World And Stacey"
+test2 = ""
+test3 = "l     mao"
 
-print(test)
-print(reverse_words(test))
+print(test1)
+print(reverse_words(test1))
+
+print(test2)
+print(reverse_words(test2))
+
+print(test3)
+print(reverse_words(test3))

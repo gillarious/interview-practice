@@ -7,8 +7,7 @@ def largest_prod_subarray(nums):
         for j in range(i, len(nums)):
             if i == j:
                 prod = nums[j]
-            else:
-                prod *= nums[j]
+            prod *= nums[j]
             if prod > max_prod:
                 max_prod = prod
     return max_prod
