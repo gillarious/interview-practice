@@ -1,11 +1,9 @@
 #o(n) solution
 def find_min2(list):
     min = list[0]
-
     for i in list:
         if i < min:
             min = i
-
     return min
 
 
